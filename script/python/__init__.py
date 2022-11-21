@@ -5,11 +5,48 @@
 from typing import Union, Generator
 
 # install libraries
-import ppanggolin.geneFamily
+from ppanggolin.geneFamily import GeneFamily as Fam
 from ppanggolin.pangenome import Pangenome as Pan
 
-# local libraries
-from panorama.geneFamily import GeneFamily
+
+class GeneFamily(Fam):
+    """
+    This represents a single gene family. It will be a node in the pangenome graph, and be aware of its genes and edges.
+    :param family_id: The internal identifier to give to the gene family
+    :param name: The name of the gene family (to be printed in output files)
+    """
+
+    def __init__(self, family_id: int, name: str):
+        super().__init__(family_id, name)
+        self.annotation = {}
+
+    def __repr__(self):
+        return f"GF {self.ID}: {self.name}"
+
+    def get_annot(self, source: str):
+        if self.annotation.get(source) is not None:
+            return self.annotation[source]
+        else:
+            return None
+
+    def add_annotation(self, source: str, annotation: Union[list, str]):
+        """ Add annotation to gene family
+
+        :param source: Name of database source
+        :param annotation: Identifier of the annotation
+        :param force:
+        """
+        # TODO Change list for set
+        if self.get_annot(source) is not None:
+            if isinstance(annotation, str):
+                self.annotation[source].append(annotation)
+            else:
+                self.annotation[source] += annotation
+        else:
+            if isinstance(annotation, str):
+                self.annotation[source] = [annotation]
+            else:
+                self.annotation[source] = annotation
 
 
 class Pangenome(Pan):

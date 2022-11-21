@@ -10,8 +10,8 @@ from ppanggolin.edge import Edge
 from ppanggolin.region import Module, Region, Spot
 
 # local librairies
-from panorama.pangenomes import Pangenome
-from panorama.geneFamily import GeneFamily
+from script.python import Pangenome
+from script.python import GeneFamily
 
 fam_visit = set()
 

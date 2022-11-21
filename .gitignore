@@ -2,6 +2,8 @@
 PPanGGOLiN
 data/
 original_data/
+card-data
+localDB
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
