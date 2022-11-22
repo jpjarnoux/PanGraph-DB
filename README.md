@@ -1,5 +1,5 @@
 # PanGraph-DB
-A jupyter notebook to reproduce the result under submission to the ICDE conference.
+A jupyter notebook to reproduce the results of a paper co-authored by the people listed below and under submission to the ICDE conference.
 
 # Authors
 - Jérôme Arnoux, Genoscope/LABGeM - CEA, CNRS, Paris Saclay University
