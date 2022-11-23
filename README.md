@@ -28,7 +28,7 @@ This repository includes a Jupyter notebook describing performance and scalabili
 - Guillaume Gautreau, MetaGenoPolis, Université Paris-Saclay, INRAE, MGP
 
 ## Dependencies
-We list all required dependencies below. For installation purposes, please follow the instruction in the next section 'Environment configuration'.
+We list all required dependencies below. 
 
 Use pip to install:
 - dict2graph==2.0.0
@@ -74,5 +74,5 @@ python -m ipykernel install --user --name=pangraph
 jupyter notebook --notebook-dir=./PanGraph-DB
 ```
 
-Next run all the cells to obtain the corresponding results.. Don't forget to change the data path.
+Next run all the cells to obtain the corresponding results. Don't forget to change the data path.
 
