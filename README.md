@@ -2,7 +2,7 @@
 
 ## About the project
 
-PanGraph-DB is a data-centric pipeline capable of operating on a unified graph dataset consisting of multiple pangenome graphs, as computed by the [PPanGGOLiN framework](https://github.com/labgem/PPanGGOLiN), and that further leverages the [Neo4j graph database](https://neo4j.com/) to perform complex analyses. These are expressed as graph database queries in Neo4j's [Cypher query language](https://neo4j.com/developer/cypher/).
+PanGraph-DB is a data-centric pipeline capable of operating on a unified graph dataset consisting of multiple pangenome graphs, as computed by the [PPanGGOLiN framework](https://github.com/labgem/PPanGGOLiN), and that further leverages the [Neo4j graph database](https://neo4j.com/) to perform complex analyses. These are expressed as graph database queries in Neo4j's [Cypher query language](https://neo4j.com/developer/cypher/). Note that the methodology is, however, system-agnostic and can be reproduced using any other graph database system.
 
 This repository includes a Jupyter notebook describing performance and scalability experiments performed on datasets of up to 10 pangenomes, with sizes ranging from 200 to 1800 MB, on a workload comprised of 10 queries ([available here](./script/python/wf.py)).
 
