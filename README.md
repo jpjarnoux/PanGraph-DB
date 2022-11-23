@@ -26,8 +26,3 @@ Neo4J:
 - Add local DBMS with a Neo4j version of 4.4.11
 - APOC 4.4.0.10 or more
 - Optional : Neo4J Desktop 1.5.0
-
-# Reference
-1. S. Sakr _qnd al_. “The future is big graphs: a community view on graph processing systems,” Commun. ACM, vol. 64, no.9, pp. 62–71, 2021.
-2. G. Gautreau _and al_. “PPanGGOLiN: Depicting microbial diversity via a partitioned pangenome graph,” vol. 16, no. 3, p. e1007732, publisher: Public Library of Science. [https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007732](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007732)
-3. 
