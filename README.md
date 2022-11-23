@@ -48,14 +48,14 @@ Neo4j:
 
 # Dataset
 
-The original dataset is available you can download this [folder](https://drive.google.com/drive/folders/1eZ7GQgU5tAgfryK31EPV6OP2wVRrj79B?usp=share_link).
+The original dataset is available [here](https://drive.google.com/drive/folders/1eZ7GQgU5tAgfryK31EPV6OP2wVRrj79B?usp=share_link).
 
 # Running the project
 To begin, note that you must have an empty Neo4J DMBS (version 4.4.11) open and available with the APOC plugin install (version 4.4.0.10).
 
 To execute the following script, you will need to install some packages. They're listed in the following conda environment file. The *in development* version of PPanGGOLiN is required to satisfy some feature and pangenomes compatibility.
 
-To install the conda environment in jupyter kernel, please copy and paste the following code in your terminal:
+To install the conda environment in the jupyter kernel, please copy and paste the following code in your terminal:
 ```
 git clone https://github.com/labgem/PanGraph-DB.git
 conda update -n base -c defaults conda -y
@@ -69,4 +69,5 @@ python -m ipykernel install --user --name=pangraph
 jupyter notebook --notebook-dir=./PanGraph-DB
 ```
 
-Next run all the cells to obtain results. Don't forget to change the data path.
+Next run all the cells to obtain the corresponding results.. Don't forget to change the data path.
+
