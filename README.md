@@ -4,7 +4,21 @@
 
 PanGraph-DB is a pipeline capable of operating on a unified graph dataset consisting of multiple pangenome graphs, as computed by the PPanGGOLiN framework, and that further leverages the Neo4j graph database to perform complex analyses. These are expressed at graph queries in Neo4j's Cypher language.
 
-This repository includes a Jupyter notebook describing performance and scalability experiments performed on datasets of up to 10 pangenomes, with sizes ranging from 200 - 1800 MB, on a workload comprised of 10 queries.
+This repository includes a Jupyter notebook describing performance and scalability experiments performed on datasets of up to 10 pangenomes, with sizes ranging from 200 - 1800 MB, on a workload comprised of 10 queries ([available here](./scipt/python/wf.py)).
+
+| Pangenomes                         | \# of genes | \# of genomes | \# of families | \# raw edges | \# of RGPs | \# of spots | \# of modules | HDF5 size (MB) |
+|------------------------------------|-------------|---------------|----------------|--------------|------------|-------------|---------------|----------------|
+|*Acinetobacter baumannii*     | 1 044 515   | 285           | 14 400         | 30 147       | 9 764      | 364         | 609           | 616            |
+|*Enterobacter bugandensis*  | 526 062     | 118           | 18 143         | 23 734       | 3 424      | 326         | 250           | 212            |
+|*Enterobacter cloacae*      | 651 827     | 137           | 22 953         | 32 270       | 6 083      | 292         | 526           | 358            |
+|*Enterobacter hormaechei*   | 739 490     | 159           | 18 166         | 29 798       | 5744       | 280         | 742           | 415            |
+|*Enterobacter kobei*        | 705 811     | 150           | 20 836         | 29 311       | 5 740      | 181         | 535           | 386            |
+|*Enterobacter roggenkampii* | 978 031     | 210           | 26 080         | 40 459       | 8 807      | 319         | 712           | 537            |
+|*Enterococcus faecium*      | 570 257     | 207           | 7 889          | 18 627       | 6 195      | 189         | 318           | 301            |
+|*Klebsiella pneumoniae*     | 3 100 409   | 600           | 29 139         | 61 865       | 25 014     | 529         | 1 167         | 1 800          |
+|*Pseudomonas aeruginosa*    | 1 892 646   | 313           | 23 699         | 42 084       | 10 706     | 543         | 909           | 1200           |
+|*Staphylococcus aureus*     | 1 686 977   | 638           | 7 017          | 18 047       | 11 869     | 268         | 203           | 991            |
+
 
 ## Authors
 - Jérôme Arnoux, Genoscope/LABGeM - CEA, CNRS, Paris Saclay University
@@ -50,3 +64,5 @@ pip install --user ipykernel
 python -m ipykernel install --user --name=pangraph
 jupyter notebook --notebook-dir=./PanGraph-DB
 ```
+
+Next run all the cells to obtain results.
