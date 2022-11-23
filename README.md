@@ -46,6 +46,10 @@ Neo4j:
 - APOC 4.4.0.10 or more
 - Optional : Neo4J Desktop 1.5.0
 
+# Dataset
+
+The original dataset is available you can download this [folder](https://drive.google.com/drive/folders/1eZ7GQgU5tAgfryK31EPV6OP2wVRrj79B?usp=share_link).
+
 # Running the project
 To begin, note that you must have an empty Neo4J DMBS (version 4.4.11) open and available with the APOC plugin install (version 4.4.0.10).
 
