@@ -27,7 +27,7 @@ Use conda to install:
 - rgi==6.0.1
 - genome_updater==0.5.1
 
-Neo4J:
+Neo4j:
 - Add local DBMS with a Neo4j version of 4.4.11
 - APOC 4.4.0.10 or more
 - Optional : Neo4J Desktop 1.5.0
