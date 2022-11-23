@@ -53,9 +53,14 @@ The original dataset is available [here](https://drive.google.com/drive/folders/
 # Running the project
 To begin, note that you must have an empty Neo4J DMBS (version 4.4.11) open and available with the APOC plugin install (version 4.4.0.10).
 
-To execute the following script, you will need to install some packages. They're listed in the following conda environment file. The *in development* version of PPanGGOLiN is required to satisfy some feature and pangenomes compatibility.
+To execute the `PangenomeGraph.ipynb` script, you will need to first install some packages. 
+
+These are listed in the following conda environment file `conda-env.yml`. 
+
+The *in development* version of PPanGGOLiN is required to satisfy some feature and pangenome compatibility.
 
 To install the conda environment in the jupyter kernel, please copy and paste the following code in your terminal:
+
 ```
 git clone https://github.com/labgem/PanGraph-DB.git
 conda update -n base -c defaults conda -y
