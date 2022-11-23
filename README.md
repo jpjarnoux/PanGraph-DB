@@ -4,7 +4,7 @@
 
 PanGraph-DB is a pipeline capable of operating on a unified graph dataset consisting of multiple pangenome graphs, as computed by the PPanGGOLiN framework, and that further leverages the Neo4j graph database to perform complex analyses. These are expressed at graph queries in Neo4j's Cypher language.
 
-The repository includes a Jupyter notebook describing performance and scalability experiments performed on datasets of up to 10 pangenomes, with sizes ranging from 200 - 1800 MB, on a workload comprised of 10 queries.
+This repository includes a Jupyter notebook describing performance and scalability experiments performed on datasets of up to 10 pangenomes, with sizes ranging from 200 - 1800 MB, on a workload comprised of 10 queries.
 
 ## Authors
 - Jérôme Arnoux, Genoscope/LABGeM - CEA, CNRS, Paris Saclay University
@@ -14,7 +14,7 @@ The repository includes a Jupyter notebook describing performance and scalabilit
 - Guillaume Gautreau, MetaGenoPolis, Universit ́e Paris-Saclay, INRAE, MGP
 
 ## Dependencies
-Below is listed all dependencies. To install it, you can follow the step in the next section 'Environment configuration'. If you prefer you can construct your own environment by installing the dependencies listed below.
+We list all required dependencies below. For installation purposes, please follow the instruction in the next section 'Environment configuration'.
 
 Use pip to install:
 - dict2graph==2.0.0
