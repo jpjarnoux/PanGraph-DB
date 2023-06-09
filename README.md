@@ -25,7 +25,7 @@ This repository includes a Jupyter notebook describing performance and scalabili
 - Angela Bonifati, Liris CNRS, Lyon 1 University
 - Alexandra Calteau, Genoscope/LABGeM - CEA, CNRS, Paris Saclay University 
 - Stefania Dumbrava, SAMOVAR/Inst. Polytechnique de Paris, ENSIIE 
-- Guillaume Gautreau, MetaGenoPolis, Université Paris-Saclay, INRAE, MGP
+- Guillaume Gautreau, MetaGenoPolis, University Paris-Saclay, INRAE, MGP
 
 ## Dependencies
 We list all required dependencies below. 
