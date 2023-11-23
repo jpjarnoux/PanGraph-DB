@@ -1,4 +1,4 @@
-name: test_pangraph
+name: pangraph
 channels:
   - bioconda
   - conda-forge
@@ -138,4 +138,3 @@ dependencies:
     - neo4j==5.2.1
     - pansi==2020.7.3
     - urllib3==1.26.12
-prefix: /home/jarnoux/anaconda3/envs/test_pangraph
